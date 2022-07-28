@@ -33,7 +33,7 @@ const Countries = () => {
           } = countries[countryId];
           return (
             <Country
-              key={name}
+              key={population}
               currencies={currencies}
               flags={flags}
               name={name}
