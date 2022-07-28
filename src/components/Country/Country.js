@@ -18,7 +18,7 @@ const Country = ({ flags, name, population }) => (
           />
           <Card.Img variant="top" src={flags.png} />
           <Card.Body>
-            <Card.Title>{`Country: ${name.common.toUpperCase()}`}</Card.Title>
+            <Card.Title>{`Country: ${name.common}`}</Card.Title>
             <Card.Text>{`Population: ${population}`}</Card.Text>
           </Card.Body>
         </Link>
