@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import { FaRegArrowAltCircleRight } from 'react-icons/fa';
 import './country.css';
 
-const Country = ({ flags, name, population }) => (
+const Country = ({ name, population }) => (
   <Row xs={1} lg={1} className="g-4">
     <Col>
       <Card className="card-container">
@@ -16,7 +16,6 @@ const Country = ({ flags, name, population }) => (
             style={{ width: '20px', height: '20px' }}
             className="arrow-right"
           />
-          <Card.Img variant="top" src={flags.png} />
           <Card.Body>
             <Card.Title>{`Country: ${name.common}`}</Card.Title>
             <Card.Text>{`Population: ${population}`}</Card.Text>
@@ -27,15 +26,15 @@ const Country = ({ flags, name, population }) => (
   </Row>
 );
 Country.defaultProps = {
-  flags: {},
+  // flags: {},
   name: {},
   population: PropTypes.number,
 };
 
 Country.propTypes = {
-  flags: PropTypes.shape({
-    png: PropTypes.string,
-  }),
+  // flags: PropTypes.shape({
+  //   png: PropTypes.string,
+  // }),
   name: PropTypes.shape({
     common: PropTypes.string,
   }),

@@ -10,6 +10,7 @@
 @media only screen and (min-width: 600px) {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 36px;
   }
 
   img.card-img-top {
@@ -20,7 +21,7 @@
 @media only screen and (max-width: 600px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
-    margin-top: -70px;
+    margin-top: 0;
   }
 
   .map.container {

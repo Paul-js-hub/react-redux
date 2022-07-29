@@ -19,10 +19,12 @@ const Countries = () => {
       <Container className="map">
         <Row>
           <Col xs={6}>
-            <img src={map} alt="africa map" className="africa-image" />
+            <div className="africa-image">
+              <img src={map} alt="africa map" />
+            </div>
           </Col>
-          <Col xs={6} className="righ-map-column" style={{ color: 'white' }}>
-            <h3>AFRICA POPULATION</h3>
+          <Col xs={6} className="righ-map-column" style={{ color: 'white', zIndex: '1' }}>
+            <h3 style={{ paddingTop: '40px' }}>AFRICA POPULATION</h3>
           </Col>
         </Row>
       </Container>
