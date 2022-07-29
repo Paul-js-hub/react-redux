@@ -35,7 +35,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 [Live Demo Link](https://africa-metadata.herokuapp.com/)
 
 ## Live link
-[Live Demo Link](https://spacex-travellers.herokuapp.com/missions)
+[Video Link](https://www.loom.com/share/d1348d4f96ba4a498083422926882105)
 
 ## Author
 
