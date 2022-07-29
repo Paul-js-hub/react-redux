@@ -34,8 +34,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Live link
 [Live Demo Link](https://africa-metadata.herokuapp.com/)
 
-## Live link
-[Video Link](https://www.loom.com/share/d1348d4f96ba4a498083422926882105)
+## Video link
+[Video Link](https://www.loom.com/share/d87ddf9bc6034d4bb9b98337a436caaf)
 
 ## Author
 
