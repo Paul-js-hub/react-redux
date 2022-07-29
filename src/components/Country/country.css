@@ -1,0 +1,10 @@
+.card-container {
+  margin: 0;
+  border: 1px solid orangered;
+  background-color: #dc4782;
+}
+
+.card-container.card {
+  height: 176px;
+  padding: 8px;
+}

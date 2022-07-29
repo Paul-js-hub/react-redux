@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Josefin Sans', cursive;
+  background-color: #fc5193;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.arrow-right {
+  float: right;
+}
+
+.icon {
+  color: white;
+  padding: 2px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+
+.year {
+  color: white;
+  padding: 2px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.year:hover {
+  color: white;
+}
+
+.btn {
+  color: white !important;
+  border-color: #dc4782 !important;
+}
+
+.btn:hover {
+  background-color: #dc4782 !important;
+  border-color: #dc4782 !important;
+}
+
+.africa-image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 130px;
+}
+
+.africa-image > img {
+  width: 100%;
+  height: 130px;
+}
+
+.africa-image::before {
+  background-color: rgb(208, 67, 121, 0.6);
+  content: '';
+  position: absolute;
+  width: 96%;
+  height: 130px;
+}
+
+.color1 {
+  background-color: #dc4782 !important;
+}
+
+.country-details {
+  color: white;
+}
+
+.country-details:nth-child(odd) {
+  background-color: #fc5193 !important;
+  width: 100%;
+  padding: 10px;
+}
+
+.country-data {
+  height: 100vh;
+  padding: 8px;
+  background-color: #dc4782;
+}
